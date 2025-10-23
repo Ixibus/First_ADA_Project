@@ -80,7 +80,9 @@ isPlayerClicking.addEventListener("click", eventClickPlayer());
 isPlayerClicking.addEventListener("click", () => randomChoiceTrigger());
 
 btnReset.addEventListener("click", () => {
-    cpuScore.innerText = 0;
+  cpu.innerText = "";
+  player.innerText = "";  
+  cpuScore.innerText = 0;
     playerScore.innerText = 0;
     isWinnerPlayer.innerText = "";
 })
